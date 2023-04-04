@@ -1,0 +1,3 @@
+make sure webull credentials (email, trading password, mfa code)
+make sure position sizes are right
+make sure following the right streampy

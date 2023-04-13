@@ -3,7 +3,7 @@ from manzparse import *
 import tweepy
 
 manzId = '1338306457511600130'
-tonyId = "1319691473185628160"
+tonyId = ""
 auth = tweepy.OAuthHandler(config.twitter_api_key1, config.twitter_api_key_secret1)
 auth.set_access_token(config.twitter_access_token1, config.twitter_access_token_secret1)
 api = tweepy.API(auth)

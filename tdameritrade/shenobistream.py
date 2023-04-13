@@ -3,7 +3,7 @@ from shenobiparse import *
 import tweepy
 
 ttmId = '1319540410616864769'
-tonyId = "1319691473185628160"
+tonyId = ""
 auth = tweepy.OAuthHandler(config.twitter_api_key3, config.twitter_api_key_secret3)
 auth.set_access_token(config.twitter_access_token3, config.twitter_access_token_secret3)
 api = tweepy.API(auth)

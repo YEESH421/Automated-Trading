@@ -10,8 +10,8 @@ relogin(wb)
 wb.get_trade_token(pin)
 
 manzId = '1387542700463960067'
-tonyId = "1319691473185628160"
-seanId = '1328743715087724546'
+tonyId = ""
+seanId = ''
 class MyStreamListener(tweepy.Stream):
     def on_status(self, status):
         if status.in_reply_to_user_id == None and status.is_quote_status == False and status.text.split()[0] != 'RT':

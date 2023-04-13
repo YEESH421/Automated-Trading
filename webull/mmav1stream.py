@@ -10,7 +10,7 @@ relogin(wb)
 wb.get_trade_token(pin)
 
 mmaId = '1382530260793581570'
-tonyId = "1319691473185628160"
+tonyId = ""
 
 class MyStreamListener(tweepy.Stream):
     def on_status(self, status):

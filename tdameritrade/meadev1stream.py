@@ -2,7 +2,7 @@ from streamtweets import *
 import tweepy
 
 meadeId = '758386485846544384'
-tonyId = "1319691473185628160"
+tonyId = ""
 auth = tweepy.OAuthHandler(config.twitter_api_key2, config.twitter_api_key_secret2)
 auth.set_access_token(config.twitter_access_token2, config.twitter_access_token_secret2)
 api = tweepy.API(auth)
